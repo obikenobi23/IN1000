@@ -1,0 +1,11 @@
+3b) Hvorfor lagre alle sangene i en liste, og ikke i en ordbok?
+Lister gjør det enklere å hente og bruke elementene enn en ordbok.
+I tillegg må ordbøker ha verdier knyttet til hver nøkkel, noe som ikke
+er strengt nødvendig for en spilleliste.
+
+3c) Hvorfor ikke ha filnavn som et parameter i konstruktør?
+For det første gjør dette at man alltid må ha en tekstfil med sanger klar
+når man oppretter en spilleliste. Det gjør også at man ikke kan opprette en spilleliste
+med musikk fra mer enn én tekstfil. I dette tilfellet er dette uhensiktsmessig
+på mange måter, og burde bare vurderes til programmer som spesifikt lager
+en enkelt spilleliste av en enkelt fil.
